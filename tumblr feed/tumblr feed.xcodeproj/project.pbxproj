@@ -8,25 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		126AC0DA67BA5931F737DBEA /* Pods_tumblr_feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C2973C0C18DB9B1262656D /* Pods_tumblr_feed.framework */; };
+		192F21ED1E8C423A00EFB8A9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F21EC1E8C423A00EFB8A9 /* PostTableViewCell.swift */; };
+		192F21EF1E8C4EA300EFB8A9 /* DetailImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192F21EE1E8C4EA300EFB8A9 /* DetailImageViewController.swift */; };
 		196DBE631E8C331C0096D156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBE621E8C331C0096D156 /* AppDelegate.swift */; };
-		196DBE651E8C331C0096D156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBE641E8C331C0096D156 /* ViewController.swift */; };
 		196DBE681E8C331C0096D156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196DBE661E8C331C0096D156 /* Main.storyboard */; };
 		196DBE6A1E8C331C0096D156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196DBE691E8C331C0096D156 /* Assets.xcassets */; };
 		196DBE6D1E8C331C0096D156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196DBE6B1E8C331C0096D156 /* LaunchScreen.storyboard */; };
 		196DBE771E8C33EC0096D156 /* TumblrNetworkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBE761E8C33EC0096D156 /* TumblrNetworkLayer.swift */; };
 		196DBE791E8C34670096D156 /* FeedPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBE781E8C34670096D156 /* FeedPost.swift */; };
+		196DBE7B1E8C38C50096D156 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196DBE7A1E8C38C50096D156 /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192F21EC1E8C423A00EFB8A9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		192F21EE1E8C4EA300EFB8A9 /* DetailImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageViewController.swift; sourceTree = "<group>"; };
 		196DBE5F1E8C331C0096D156 /* tumblr feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tumblr feed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		196DBE621E8C331C0096D156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		196DBE641E8C331C0096D156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		196DBE671E8C331C0096D156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		196DBE691E8C331C0096D156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196DBE6C1E8C331C0096D156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196DBE6E1E8C331C0096D156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		196DBE761E8C33EC0096D156 /* TumblrNetworkLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrNetworkLayer.swift; sourceTree = "<group>"; };
 		196DBE781E8C34670096D156 /* FeedPost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedPost.swift; sourceTree = "<group>"; };
+		196DBE7A1E8C38C50096D156 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		41C2973C0C18DB9B1262656D /* Pods_tumblr_feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblr_feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5884ECF08E804EFCCE93F78B /* Pods-tumblr feed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr feed.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr feed/Pods-tumblr feed.release.xcconfig"; sourceTree = "<group>"; };
 		BBB9E6842C06A77C65FA1631 /* Pods-tumblr feed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblr feed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblr feed/Pods-tumblr feed.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,8 +72,10 @@
 				196DBE761E8C33EC0096D156 /* TumblrNetworkLayer.swift */,
 				196DBE781E8C34670096D156 /* FeedPost.swift */,
 				196DBE621E8C331C0096D156 /* AppDelegate.swift */,
-				196DBE641E8C331C0096D156 /* ViewController.swift */,
+				196DBE7A1E8C38C50096D156 /* PhotosViewController.swift */,
 				196DBE661E8C331C0096D156 /* Main.storyboard */,
+				192F21EE1E8C4EA300EFB8A9 /* DetailImageViewController.swift */,
+				192F21EC1E8C423A00EFB8A9 /* PostTableViewCell.swift */,
 				196DBE691E8C331C0096D156 /* Assets.xcassets */,
 				196DBE6B1E8C331C0096D156 /* LaunchScreen.storyboard */,
 				196DBE6E1E8C331C0096D156 /* Info.plist */,
@@ -219,9 +225,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				196DBE771E8C33EC0096D156 /* TumblrNetworkLayer.swift in Sources */,
-				196DBE651E8C331C0096D156 /* ViewController.swift in Sources */,
 				196DBE631E8C331C0096D156 /* AppDelegate.swift in Sources */,
+				192F21ED1E8C423A00EFB8A9 /* PostTableViewCell.swift in Sources */,
+				192F21EF1E8C4EA300EFB8A9 /* DetailImageViewController.swift in Sources */,
 				196DBE791E8C34670096D156 /* FeedPost.swift in Sources */,
+				196DBE7B1E8C38C50096D156 /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

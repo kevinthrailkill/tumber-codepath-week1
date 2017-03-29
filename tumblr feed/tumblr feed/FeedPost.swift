@@ -7,9 +7,29 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 
 class FeedPost {
+    
+    let imageURL: String?
+    let detailImageURL: String?
+    
+    
+    init(json: JSON) {
+        
+    
+        imageURL = json["photos"][0]["alt_sizes"][1]["url"].string
+        detailImageURL = json["photos"][0]["original_size"]["url"].string
+        
+       // print(json)
+        
+        
+        
+    }
+    
+    
+    
     
     
     
